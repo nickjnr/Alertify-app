@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontRubik{
+    font-family: Rubik;
+}
+
+.header_bg{
+    background-image: url("./assets/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.custom_bg{
+    background-color: rgba(233, 239, 253, 1);
+}
+
+.playbook_bg{
+    background-image: url("./assets/playbook-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.workflow_bg{
+    background-image: url("./assets/workflow_bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.transition-faq {
+    transition: max-height 1s ease-in-out;
+  }
+
+.footer_bg{
+    background-color: rgba(11, 11, 19, 1);
+    background-image: url("./assets/footerbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
